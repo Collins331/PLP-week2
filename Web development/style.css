@@ -1,0 +1,70 @@
+body{
+    background: url('patrick.jpg');
+    color: white;
+}
+h1{
+    text-align: center;
+    color: #c5ddf3;
+    font-size: 4rem;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+nav > a {
+    text-decoration: none;
+    font-size: 2.5rem;
+}
+a:link {
+    color: #12ff1d;
+}
+a:visited{
+    color: #12f7ff;
+}
+#technology{
+    background-color: #0c0c0cce;
+    border-radius: 10px;
+    padding: 4rem;
+}
+#technology > h3 {
+    font-size: 3rem;
+    text-align: center;
+}
+.tech-images {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    padding: 12em;
+}
+img{
+    border-radius: 10%;
+
+}
+/*/<uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
+*/
+.kode-mono {
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+#nature{
+    background-color: rgba(10, 59, 18, 0.637);
+    border-radius: 10px;
+    padding: 2rem;
+}
+#nature > h3{
+    text-align: center;
+    font-size: 2rem;
+}
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 800 */
+
+.ojuju {
+  font-family: "Ojuju", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 50;
+  font-style: normal;
+}
